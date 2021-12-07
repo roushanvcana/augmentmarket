@@ -9721,6 +9721,8 @@ blockquote{
 
 
 
+
+
     30%{
         -webkit-transform:scaleX(1.25) scaleY(0.75);
         -ms-transform:scaleX(1.25) scaleY(0.75);
@@ -12170,6 +12172,7 @@ blockquote{
         -ms-transform:scale(.475) translateX(-48px);
         transform:scale(.475) translateX(-48px);
         -webkit-animation-timing-function:ease-out;
+
         animation-timing-function:ease-out
     }
 }
@@ -13181,11 +13184,11 @@ div.ppt{
     padding:0
 }
 .flexslider .slides img, .imac-device .slides img{
-    width: 77%;
+    /* width: 77%; */
     display:block;
     position: relative;
     left: 14px;
-    top: -15px;
+    /* top: -15px; */
 }
 .flex-pauseplay span{
     text-transform:capitalize
@@ -14028,10 +14031,10 @@ dd{
 	z-index: 0;
 }
 .home-wrapper h3{
-    font-size:58px;
-    line-height:68px;
+    font-size: 45px;
+    line-height: 50px;
     color:#fff;
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 .home-wrapper h3 span{
     font-weight:300;
@@ -14298,6 +14301,7 @@ ul.listForm li{
     float:left;
     width:50%;
     padding:20px 15px 20px 15px;
+
     margin:0;
     list-style:none
 }
@@ -17174,6 +17178,7 @@ a, a:focus, a:hover, a:active, .navbar-default .navbar-nav li a:hover, .navbar-d
     box-shadow:0 3px 0 #0e0e0e;
     margin-bottom:3px
 }
+
 .vc_btn-black.vc_btn_3d.vc_btn_sm,a.vc_btn-black.vc_btn_3d.vc_btn_sm,button.vc_btn-black.vc_btn_3d.vc_btn_sm{
     -webkit-box-shadow:0 4px 0 #0e0e0e;
     box-shadow:0 4px 0 #0e0e0e;
@@ -17438,6 +17443,7 @@ a, a:focus, a:hover, a:active, .navbar-default .navbar-nav li a:hover, .navbar-d
 .vc_btn-grace,a.vc_btn-grace,button.vc_btn-grace{
     background-color:#AED13B;
     color:#fff!important;
+
     -webkit-transition:all .5s;
     -o-transition:all .5s;
     transition:all .5s
@@ -18235,6 +18241,7 @@ i.icon{
     border-color:#EBEBEB;
     background-color:transparent
 }
+
 .vc_color-grey.vc_message_box-outline .vc_message_box-icon,.vc_color-grey.vc_message_box-solid-icon .vc_message_box-icon{
     color:#EBEBEB
 }
@@ -18803,6 +18810,7 @@ i.icon{
 .vc_column_container{
     padding-left:0;
     padding-right:0
+
 }
 .vc_column_container>.vc_column-inner{
     box-sizing:border-box;
@@ -19424,6 +19432,7 @@ iframe.twitter-share-button{
     background-color:#7c93dd
 }
 .vc_toggle_color_blue .vc_toggle_title:hover .vc_toggle_icon::after,.vc_toggle_color_blue .vc_toggle_title:hover .vc_toggle_icon::before{
+
     background-color:#FFF
 }
 .vc_toggle_color_blue.vc_toggle_color_inverted .vc_toggle_title:hover .vc_toggle_icon{
@@ -19681,6 +19690,7 @@ iframe.twitter-share-button{
 }
 .vc_toggle_color_violet.vc_toggle_default .vc_toggle_icon::after{
     background:#8D6DC4
+
 }
 .vc_toggle_color_violet.vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon::after{
     background:#a991d3
@@ -20449,6 +20459,7 @@ iframe.twitter-share-button{
 .vc_toggle_color_juicy_pink.vc_toggle_color_inverted .vc_toggle_icon::after,.vc_toggle_color_juicy_pink.vc_toggle_color_inverted .vc_toggle_icon::before{
     background-color:#F4524D
 }
+
 .vc_toggle_color_juicy_pink .vc_toggle_title:hover .vc_toggle_icon{
     background-color:#f7817d
 }
@@ -21304,6 +21315,7 @@ a.wpb_button_a{
 }
 .vc_btn3.vc_btn3-size-lg.vc_btn3-icon-right:not(.vc_btn3-o-empty){
     padding-right:60px
+
 }
 .vc_btn3.vc_btn3-size-lg.vc_btn3-icon-right:not(.vc_btn3-o-empty) .vc_btn3-icon{
     right:25px

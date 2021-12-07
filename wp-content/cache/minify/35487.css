@@ -6700,6 +6700,7 @@ blockquote{
     margin-right:20px
 }
 .media h4.media-heading, .media h4.media-heading a{
+
     color:#2c3945;
     font-size:14px;
     text-shadow:0px 1px 1px #fff;
@@ -8195,6 +8196,7 @@ blockquote{
     content:"\f1c3"
 }
 .fa-file-powerpoint-o:before{
+
     content:"\f1c4"
 }
 .fa-file-image-o:before,.fa-file-photo-o:before,.fa-file-picture-o:before{
@@ -13191,11 +13193,11 @@ div.ppt{
     padding:0
 }
 .flexslider .slides img, .imac-device .slides img{
-    /* width: 77%; */
+    width: 100%;
     display:block;
     position: relative;
-    left: 14px;
-    /* top: -15px; */
+    left: -7px;
+    top: -12px;
 }
 .flex-pauseplay span{
     text-transform:capitalize
@@ -13221,7 +13223,10 @@ html[xmlns] .slides{
     margin:0;
     background:none;
     position:relative;
-    zoom:1
+    zoom:1;
+    overflow: hidden;
+    width: 670px;
+    left: 110px;
 }
 .flex-viewport{
     max-height:2000px;
@@ -14080,6 +14085,7 @@ dd{
     width:100%;
     height:auto;
     margin: 10px 0 -325px 0 !important;
+    padding: 0 0;
 }
 .slider-wrapper{
     position:absolute;
@@ -22029,6 +22035,7 @@ a.wpb_button_a{
     color:#f2f2f2;
     background-color:#5AA1E3
 }
+
 .vc_btn3.vc_btn3-color-sky.vc_btn3-style-3d.vc_btn3-size-xs{
     box-shadow:0 3px 0 #2a86db
 }
@@ -22326,6 +22333,7 @@ a.wpb_button_a{
     box-shadow:0 3px 0 #a559a8
 }
 .vc_btn3.vc_btn3-color-purple.vc_btn3-style-3d.vc_btn3-size-xs:focus,.vc_btn3.vc_btn3-color-purple.vc_btn3-style-3d.vc_btn3-size-xs:hover{
+
     top:1px;
     box-shadow:0 2px 0 #a559a8
 }
@@ -25820,6 +25828,7 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{
     margin:5px 7px;
     background:0 0;
     -webkit-transition:all .2s ease-in-out;
+
     transition:all .2s ease-in-out;
     border:none
 }

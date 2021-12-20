@@ -29,20 +29,23 @@
   </div>
 </div>
 <header>
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">   
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         <a class="navbar-brand" href=""> <img src="wp-content/themes/meminz/img/am-6.svg" alt="Meminz" /></a> </div>
       <div class="collapse navbar-collapse">
         <ul id="menu-landing-page-navigation" class="nav navbar-nav meminz_main-nav">
-          <li id="menu-item-15" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a title="Home" href="#home">Home</a></li>
-          <li id="menu-item-16" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a title="Features" href="#features">Features</a></li>
-          <li id="menu-item-268" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-268"><a title="Description" href="#description">Description</a></li>
-          <li id="menu-item-269" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-269"><a title="Screenshot" href="#screenshot">Screenshot</a></li>
-          <li id="menu-item-270" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-270"><a title="Pricing" href="#pricing">Pricing</a></li>
-          <li id="menu-item-248" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-248"><a title="Testimoni" href="#testimoni">Testimonial</a></li>
-          <li id="menu-item-249" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-249"><a title="Contact" href="#contact">Contact</a></li>
+          <li id="menu-item-15" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a title="Home" href="#home">Augment</a></li>
+          <li id="menu-item-16" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a title="Features" href="#features">Who we are</a></li>
+          <li id="menu-item-268" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-268"><a title="Description" href="#pricing">Buy & Sell</a></li>
+          <li id="menu-item-269" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-269"><a title="Screenshot" href="#blog">Blog</a></li>
+          <li id="menu-item-270" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-270"><a title="Pricing" href="#">
+            <button class="col btn btn-orange-moon btn-rounded">Login</button></a></li>
+           <li id="menu-item-248" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-248"><a title="Testimoni" href="#">
+            <button class="col btn btn-orange-moon btn-rounded">Sign Up</button></a>
+         </li> 
+          <!-- <li id="menu-item-249" class="GoTo menu-item menu-item-type-custom menu-item-object-custom menu-item-249"><a title="Contact" href="#contact">Contact</a></li> -->
         </ul>
         <!--                  <div class="navbar-right"><a data-toggle="modal" data-target="#loginAjaxModal" data-activetab="#loginHref" href="#" class="btn btn-bordered">Sign in</a> <a data-toggle="modal" data-target="#loginAjaxModal" data-activetab="#registerHref" href="#" class="btn btn-primary">Sign up</a></div>--> 
       </div>
@@ -188,7 +191,8 @@
   <div class="container">
     <div class="row text-center wow fadeInUp" data-wow-delay="0.4s">
       <div class="col-md-8 col-md-offset-2">
-        <h3 class="heading"><span>Features</span>Contrary to popular belief</h3>
+        <h3 class="heading">WHO WE ARE</h3>
+        <!-- <h3 class="heading"><span>Features</span>Contrary to popular belief</h3> -->
       </div>
     </div>
     <div class="row wow fadeInDown" data-wow-delay="0.4s">
@@ -321,32 +325,100 @@
   </div>
 </section>
 <div class="clearfix"></div>
-<section id="counter-wrapper">
+
+<section id="blog">
   <div class="counter-contain">
     <div class="container">
       <div class="row text-center appear stats wow fadeInUp" data-wow-delay="0.4s">
         <div class="col-md-12">
-          <h3>Lorem Ipsum is simply dummy texts</h3>
-          <p>Minimum albucius detraxit qui veniam equidem eum in constituam</p>
+          <h3>Blog</h3>
         </div>
       </div>
+
       <div class="row text-center appear stats wow fadeInDown" data-wow-delay="0.4s">
-        <div class="vc_col-sm-12 vc_col-md-offset-2 vc_col-md-2 wpb_column vc_column_container" >
-          <div class="wpb_wrapper"> <span id="counter-download" class="counter-number">1200</span> <span class="counter-text">Downloader</span></div>
+        <section class="details-card">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="card-content">
+                          <div class="card-img">
+                              <img src="https://placeimg.com/380/230/nature" alt="">
+                              <span><h4>EVENT</h4></span>
+                          </div>
+                          <div class="card-desc">
+                            <h3>HEADLINE</h3>
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+                                  voluptas totam</p>
+                                  <a href="#" class="btn-card">Read more</a>   
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card-content">
+                          <div class="card-img">
+                              <img src="https://placeimg.com/380/230/animals" alt="">
+                              <span><h4>EVENT</h4></span>
+                          </div>
+                          <div class="card-desc">
+                            <h3>HEADLINE</h3>
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+                                  voluptas totam</p>
+                                  <a href="#" class="btn-card">Read more</a>   
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card-content">
+                          <div class="card-img">
+                              <img src="https://placeimg.com/380/230/tech" alt="">
+                              <span><h4>EVENT</h4></span>
+                          </div>
+                          <div class="card-desc">
+                              <h3>HEADLINE</h3>
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+                                  voluptas totam</p>
+                                  <a href="#" class="btn-card">Read more</a>   
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+        <!-- <div class="vc_col-sm-12 vc_col-md-offset-2 vc_col-md-2 wpb_column vc_column_container" >
+          <div class="wpb_wrapper"> 
+        <span id="counter-download" class="counter-number">1200</span> 
+        <span class="counter-text">Downloader</span>
+       </div>
+        </div> -->
+
+        <!-- <div class="vc_col-sm-12 vc_col-md-2 wpb_column vc_column_container" >
+          <div class="wpb_wrapper"> 
+          <span id="counter-view" class="counter-number">625</span>
+          <span class="counter-text">Windows user</span>
         </div>
-        <div class="vc_col-sm-12 vc_col-md-2 wpb_column vc_column_container" >
-          <div class="wpb_wrapper"> <span id="counter-view" class="counter-number">625</span> <span class="counter-text">Windows user</span></div>
         </div>
-        <div class="vc_col-sm-12 vc_col-md-2 wpb_column vc_column_container" >
-          <div class="wpb_wrapper"> <span id="counter-android" class="counter-number">348</span> <span class="counter-text">Android user</span></div>
+         -->
+
+        <!-- <div class="vc_col-sm-12 vc_col-md-2 wpb_column vc_column_container" >
+          <div class="wpb_wrapper">
+           <span id="counter-android" class="counter-number">348</span> 
+           <span class="counter-text">Android user</span>
+          </div>
+        </div> -->
+
+        <!-- <div class="vc_col-sm-12 vc_col-md-2 wpb_column vc_column_container" >
+          <div class="wpb_wrapper"> 
+          <span id="counter-ios" class="counter-number">227</span> 
+          <span class="counter-text">IOS user</span>
         </div>
-        <div class="vc_col-sm-12 vc_col-md-2 wpb_column vc_column_container" >
-          <div class="wpb_wrapper"> <span id="counter-ios" class="counter-number">227</span> <span class="counter-text">IOS user</span></div>
-        </div>
+        </div> -->
+
       </div>
+
     </div>
   </div>
 </section>
+
 <div class="clearfix"></div>
 <section id="screenshot" class="contain">
   <div class="container">
@@ -798,7 +870,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="social-network"> <a href="https:#" target="_blank"><i class="fa fa-facebook"></i></a> <a href="#"  target="_blank"><i class="fa fa-twitter"></i></a> <a href="#"  target="_blank"><i class="fa fa-google-plus"></i></a> <a href="#"  target="_blank"><i class="fa fa-dribbble"></i></a> <a href="#"  target="_blank"><i class="fa fa-skype"></i></a> <a href="#"  target="_blank"><i class="fa fa-pinterest"></i></a> <a href="#"  target="_blank"><i class="fa fa-linkedin"></i></a> </div>
-        <p>Copyright © 2021 <a class="copyrights" href="#">vcanaglobal</a>. All Rights Reserved.</p>
+        <p>Copyright © 2021 <a class="copyrights" href="#">Vcana Global</a>. All Rights Reserved.</p>
       </div>
     </div>
   </div>

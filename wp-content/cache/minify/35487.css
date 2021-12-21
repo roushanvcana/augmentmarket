@@ -10,6 +10,10 @@
     font-style: normal;
 
 }
+.flexslider1 {
+    width: 947px;
+}
+
 div.wpcf7{
     margin:0;
     padding:0
@@ -26,7 +30,7 @@ div.wpcf7 .screen-reader-response{
     width:1px;
     margin:0;
     padding:0;
-    border:0 
+    border:0
 }
 div.wpcf7-mail-sent-ok{
     border:2px solid #398f14
@@ -2679,6 +2683,7 @@ pre code{
     .col-md-push-1{
         left:8.33333333%
     }
+
     .col-md-push-0{
         left:auto
     }
@@ -6435,6 +6440,7 @@ blockquote{
     border-radius:0
 }
 .navbar-default{
+    height: 100px;
     float:left;
     width:100%;
     border:none;
@@ -6452,7 +6458,7 @@ blockquote{
     margin:0
 }
 .navbar-brand img {
-    width: 160px;
+    width: 210px;
     padding: 7px 0 0;
 }
 .navbar-default .collapse{
@@ -6696,6 +6702,7 @@ blockquote{
 }
 .media .pull-right{
     margin-right:20px
+
 }
 .media h4.media-heading, .media h4.media-heading a{
 
@@ -12917,6 +12924,7 @@ div.pp_overlay{
 }
 div.pp_pic_holder{
     display:none;
+
     position:absolute;
     width:100px;
     z-index:999999
@@ -13280,7 +13288,7 @@ html[xmlns] .slides{
 }
 .flex-direction-nav .flex-next{
     background:#222 url(../../themes/meminz/img/bg_direction_nav_next.png) no-repeat 25px center;
-    right:-100px;
+    right:-120px;
     opacity:0.8;
     border-radius:50%;
     border:none
@@ -13899,6 +13907,7 @@ html[xmlns] .slides{
     overflow:hidden;
     top:0;
     right:0;
+
     cursor:n-resize
 }
 .colorpicker_rgb_r{
@@ -14688,6 +14697,7 @@ aside .widget .head span{
 }
 .recent li a img{
     border-radius:2px;
+
     width:70px;
     margin-bottom:0
 }
@@ -15941,6 +15951,7 @@ a, a:focus, a:hover, a:active, .navbar-default .navbar-nav li a:hover, .navbar-d
     right:16.66666667%
 }
 .vc_col-xs-pull-1{
+
     right:8.33333333%
 }
 .vc_col-xs-pull-0{
@@ -25706,6 +25717,7 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{
 .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner.vc_icon_element-background-color-black.vc_icon_element-background{
     background-color:#2A2A2A
 }
+
 .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner.vc_icon_element-background-color-grey.vc_icon_element-outline{
     border-color:#EBEBEB
 }
@@ -28318,6 +28330,7 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{
     filter:alpha(opacity=0)!important;
     -webkit-transform:none!important;
     -ms-transform:none!important;
+
     transform:none!important;
     -webkit-transition:none!important;
     -o-transition:none!important;

@@ -14095,7 +14095,7 @@ dd{
     left:33px
 }
 .contain{
-    padding:80px 0 80px 0
+    padding:110px 0 80px 0
 }
 .home-wrapper {
     margin: 0 0 360px;
@@ -14127,6 +14127,7 @@ dd{
     line-height:32px
 }
 .counter-contain h3{
+	font-weight: 400;
     color:#fff;
     font-size:48px;
     line-height:56px;
@@ -28500,7 +28501,10 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{
     color: #fff;
     border: 3px solid #eee;
 }
-
+.btn-orange-moon:hover {
+	color: #fff;
+	
+}
 /* **********************Navbar************************* */
 
 
@@ -28531,13 +28535,13 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{
 
 .card-img img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0 !important;
     height: auto;
     display: block;
-    -webkit-border-radius: 10px;
+    /*-webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -o-border-radius: 10px;*/
 }
 
 .card-img img:hover{
@@ -28592,14 +28596,15 @@ body ul.wpb_thumbnails-fluid li:after,body ul.wpb_thumbnails-fluid li:before{
 }
 
 .card-desc p {
-	color: #747373;
+    color: #747373;
     font-size: 18px;
-	font-weight: 400;
-	line-height: 1.5;
-	margin: 0px;
-	margin-bottom: 20px;
-	padding: 0;
-	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0 0 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 .btn-card{
     background-color: #20600a;
@@ -28951,14 +28956,21 @@ a.text-primary:hover {
     padding-bottom: 100px;
 }
 
-.space-medium .circle-section{
-    padding: 9rem;
-    margin: 1rem 0 0 5rem;
+.space-medium .circle-section {
+    padding: 0;
+    /* margin: 170px 0 0; */
+    position: relative;
+    top: 200px;
 }
-
+.feature-content p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 26px;
+}
 .btn {
     font-size: 16px;
-    padding: 11px 21px;
+    padding: 5px 20px;
+	line-height: 20px;
     border-radius: 4px;
     overflow: hidden;
     display: inline-block;
@@ -28972,7 +28984,7 @@ a.text-primary:hover {
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
     transition: 0.3s ease;
-    font-family: "Circular Std Medium" !important;
+   /* font-family: "Circular Std Medium" !important;*/
 }
 .btn-outline-primary {
     color: #000;

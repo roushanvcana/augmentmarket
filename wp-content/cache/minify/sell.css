@@ -3094,7 +3094,7 @@ h6:last-child {
     color: #fff;
 }
 .single-product .product-content {
-    padding: 30px 25px;
+    padding: 15px;
     position: relative;
     z-index: 1;
     -webkit-transition: 0.5s;

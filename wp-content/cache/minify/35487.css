@@ -2233,7 +2233,7 @@ pre code{
 }
 @media (min-width:768px){
     .container{
-        width:750px
+        width:1300px
     }
 }
 @media (min-width:992px){
@@ -28903,7 +28903,7 @@ a.btn-card:hover {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 1060px;
+    width: 550px;
   }
 }
 
@@ -29526,18 +29526,18 @@ body{
     box-shadow: 0 0 7px #ccc;
 }
 .shop-area {
-	background: #f9f9f9;
     padding: 40px;
-    box-shadow: 0 0 7px #ccc;
 }
 .shell {
-    padding:80px 40px;
 	background: url("../images/augmnt_bg.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	position: relative;
 	background-size: cover;
     /*background: #f9f9f9;*/
+}
+.buy-pd {
+    padding:80px 40px;
 }
 .shell:before {
 	content: '';
@@ -30054,3 +30054,107 @@ a.buy-btn{
     cursor: pointer;
     z-index: 1;
 }
+
+.title-box {
+    position: relative;
+    display: block;
+    margin-bottom: 64px;
+}
+
+
+
+
+.title-box .sec-title {
+    text-align: right;
+    padding-right: 40px;
+    margin: 0px;
+}
+
+.sec-title {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.title-box .sec-title:before {
+    position: absolute;
+    content: '';
+    background: #dddddd;
+    width: 1px;
+    height: 175px;
+    top: 0;
+    right: -15px;
+}
+
+.sec-title.right h5 {
+    padding-left: 55px;
+}
+
+.mt-rt-icon {
+    margin-right: 10px;
+}
+
+.sec-title h5 {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.sec-title.right h5:before {
+    left: 0px;
+}
+.sec-title h5:before {
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 2px;
+    top: 12px;
+}
+.sec-title h5:before {
+    background: #da2c46;
+}
+.sec-title h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 46px;
+    color: #222;
+    font-weight: 700;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.title-box .text {
+    position: relative;
+    display: block;
+    padding-left: 40px;
+    padding-right: 100px;
+    /* margin-top: 41px; */
+}
+.title-box-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url(/wp-content/uploads/2014/12/home-1-cta-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 95px 0px 1px 0px;
+}
+.title-box-bg::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.by-bg {
+    background: #f9f9f9;
+    box-shadow: 0 0 7px #ccc;
+}
+.text p {
+    color: #fff;
+}
+

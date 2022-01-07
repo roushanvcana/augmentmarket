@@ -3392,7 +3392,6 @@ textarea.input-lg,select[multiple].input-lg{
     user-select:none;
     background-image:none;
     border:1px solid transparent;
-    border-radius:4px
 }
 .btn:focus,.btn:active:focus,.btn.active:focus{
     outline:thin dotted;
@@ -4495,7 +4494,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     }
 }
 .navbar-default{
-    background-color:#f8f8f8;
+    /* background-color:#f8f8f8; */
     border-color:#e7e7e7
 }
 .navbar-default .navbar-brand{
@@ -6454,7 +6453,7 @@ blockquote{
     float:left;
     width:100%;
     border:none;
-    background:#2e2e2e;
+    /* background:#2e2e2e; */
     color:#a0a0a0
 }
 .navbar-header{
@@ -6469,7 +6468,7 @@ blockquote{
 }
 .navbar-brand img {
     width: 160px;
-    padding: 7px 0 0;
+    padding: 12px 0 0;
 }
 .navbar-default .collapse{
     float:right;
@@ -6490,7 +6489,7 @@ blockquote{
     line-height:18px;
     text-transform:uppercase;
     font-weight:400;
-    color:#b6b6b6;
+    color:#fff;
     padding:30px 10px 30px 10px;
     margin:0;
     border-top:2px solid #2e2e2e;
@@ -14814,7 +14813,7 @@ iframe{
     border:none
 }
 footer{
-    background:#2e2e2e;
+    /* background:#2e2e2e; */
     color:#b6b6b6;
     font-size:14px;
     line-height:18px;
@@ -15059,7 +15058,7 @@ div.loading-visible .loader{
     .navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a:focus{
         font-size: 13px;
         line-height:18px;
-        padding: 30px 6px;
+        padding: 34px 6px;
     }
     .slider-wrapper{
         width:867px;
@@ -28729,7 +28728,7 @@ a.btn-card:hover {
 }
 
 .home-section{
-    background: url(https://ltcmedia.com/wp-content/uploads/2017/05/steps.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://ltcmedia.com/wp-content/uploads/2017/05/steps.jpg) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -30322,11 +30321,12 @@ a.buy-btn{
 }
 .section-heading h5 {
     position: relative;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 400;
     color: #111;
     line-height: 160%;
     margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 .section-heading h6 {
     position: relative;
@@ -30337,7 +30337,8 @@ a.buy-btn{
     margin-bottom: 10px;
 }
 .section-heading strong {
-    font-weight: 600;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 .section-heading-line {
     content: "";
@@ -30773,7 +30774,7 @@ a.buy-btn{
     height: 100%;
 } /*--------------------c) Buttons----------------------*/
 .primary-button {
-    background: #d21e2b;
+    background: #111111;
     color: #fff;
     font-size: 11px;
     font-weight: 500;
@@ -30783,10 +30784,26 @@ a.buy-btn{
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-.primary-button:hover {
-    background: #222;
-    color: #fff;
+
+.btn-grad {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)}
+.btn-grad {
+    padding: 20px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    font-size: 24px;
 }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
 .primary-button-bordered {
     background: transparent;
     color: #d21e2b;
@@ -30878,7 +30895,7 @@ a.buy-btn{
 .button-sm {
     display: inline-block;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 24px;
     padding: 11px 22px 11px 22px;
 }
 .button-md {
@@ -32979,9 +32996,12 @@ div#menu-center ul li a {
     }
 } /*-----------------------------------------17. Footer-------------------------------------------*/
 footer {
-    background: #111;
-    padding: 60px 0px 20px 0px;
+    /* background: #111; */
+    /* padding: 60px 0px 20px 0px; */
 }
+.con-ft {
+    padding: 30px 0 5px;
+    background: #434343;}
 footer p {
     font-size: 14px;
     color: #999;
@@ -36134,10 +36154,19 @@ footer h3:after {
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
+.container.wd {
+    /* padding: 0 70px 0px; */
+}
+.nav-con {
+    width: 100%;
+    height: 87px;
+    background: #434343;
+    padding: 0 50px 0;
+}
 .shop-buy.bg {
-    background: #20600a;
+    /* background: #20600a; */
     padding: 10px 0 10px;
-    border-radius: 32px;
+    /* border-radius: 32px; */
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
@@ -36175,18 +36204,24 @@ footer h3:after {
     margin-bottom: 3px;
 }
 .shop-grid-info h4 a {
-    color: #111;
+    color: #fff;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 .shop-grid-info h4 a:hover {
-    color: #d21e2b;
+    color: #20600a;
 }
 .shop-grid-info span {
     color: #ccc;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
+}
+a.ft-clr {
+    color: #fff;
+}
+a.ft-clr:hover {
+    color: #20600a;
 }
 .shop-grid-info h5 {
     color: #d21e2b;
@@ -36275,6 +36310,7 @@ footer h3:after {
 .shop-buy:hover {
     background: rgba(255, 255, 255, 0.5);
 }
+
 .shop-buy:hover h4 {
     color: #20600a;
 }

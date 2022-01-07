@@ -31336,6 +31336,11 @@ div#menu-center ul li a {
     margin: 15px 0px;
     background: #fff;
     border-radius: 3px;
+    height: 280px;
+}
+.r-bg {
+    padding: 50px 30px 50px;
+    background: #f9f9f9;
 }
 .number-box h3 {
     color: #111;
@@ -31348,6 +31353,9 @@ div#menu-center ul li a {
     border-bottom: 1px dashed #dedede;
     width: 100%;
     margin: 20px auto;
+}
+div#resources {
+    padding-bottom: 50px;
 }
 .number-box-line:before {
     content: "";
@@ -37101,6 +37109,10 @@ a.ft-clr:hover {
     width: 10px;
     height: 10px;
 }
+.container.r-bg {
+    background-color: #f9f9f9;
+
+}
 @media (min-width: 576px) {
 .offset-sm-6 {
     margin-left: 50%;
@@ -37112,6 +37124,10 @@ a.ft-clr:hover {
     }
     .navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a:focus {
         padding: 30px 0px 30px 10px;
+}
+.number-box {
+
+    height: 320px;
 }
 .btn-grad {
     font-size: 18px;

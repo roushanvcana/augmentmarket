@@ -36280,7 +36280,10 @@ a.ft-clr:hover {
     text-align: center;
 }
 .classic-shop:hover .classic-shop-img img {
-    transform: scale(1.06);
+    transform: scale(1.2);
+}
+img.rounded-border.shadow-primary:hover {
+    transform: scale(1.05);
 }
 .shop-box-overlay h4 {
     color: #fff;
@@ -37146,3 +37149,9 @@ a.ft-clr:hover {
 }
 
 }
+@media (min-width: 1300px) {
+.container {
+    max-width: 1400px !important;
+}
+}
+

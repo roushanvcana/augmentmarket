@@ -1,0 +1,87 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-weight: 400 !important;
+    color: rgb(135 135 135);
+}
+.lead-n {
+    font-weight: 400;
+    color: rgb(135 135 135);
+    font-size: 1.5rem;
+}
+.fw-600 {
+    font-weight: 600;
+}
+li.nav-item.hv {
+    margin: 0 5px;
+}
+li.nav-item.hv:hover {
+    background: #e1e1e1;
+    border-radius: 15px;
+}
+h2.br-bg {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+    background: #fff;
+    padding: 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+a.nav-link.active, button.active {
+    background: #056dff !important;
+    border-radius: 15px;
+    color: #fff !important;
+}
+button.active {
+    font-size: 16px;
+}
+.body-bg {
+    border-radius: 1rem;
+    background-color: #f7f2f1;
+}
+.br-radius {
+    border-radius: 1rem;
+}
+.container.p-custom {
+    padding: 20px 27px 20px;
+}
+.lead-ul {
+    font-size: 1.25rem;
+}
+.py-custom {
+    padding-top: 7rem !important;
+}
+.btn-grad {
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+}
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.shop-grid-rating li {
+    display: inline-block;
+}
+ul.shop-grid-rating {
+    padding-left: 0;
+}
+.lh-custom {
+    line-height: 0;
+}
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+}

@@ -2233,18 +2233,18 @@ pre code{
 }
 @media (min-width:768px){
     .container{
-        width:1300px
+        max-width: 600px !important;
     }
 }
 @media (min-width:992px){
-   /* .container{
-        width:970px
-    }*/
+    .container{
+        max-width: 800px !important;
+    }
 }
 @media (min-width:1200px){
-    /*.container{
-        width:1170px
-    }*/
+    .container{
+        max-width: 1000px !important;
+    }
 }
 .container-fluid{
     padding-right:15px;
@@ -37153,7 +37153,7 @@ h1.ft-sz {
 .ft-sz-p {
     margin-top: 1.5rem;
     font-size: 2rem;
-    line-height: 16px;
+    line-height: 24px;
 }
 .section-heading-line-center {
     margin: 0 auto !important;
@@ -37222,8 +37222,14 @@ img.bx-shadow {
 
 }
 @media (min-width: 1300px) {
+    .container {
+        max-width: 1100px !important;
+    }  
+}
+ 
+@media (min-width: 1500px) {
 .container {
-    max-width: 1400px !important;
+    max-width: 1200px !important;
 }
 }
 

@@ -9,7 +9,7 @@ p {
 .lead-n {
     font-weight: 400;
     color: rgb(135 135 135);
-    font-size: 1.5rem;
+    font-size: 16px;
 }
 .fw-600 {
     font-weight: 600;
@@ -21,7 +21,7 @@ li.nav-item.hv:hover {
     background: #e1e1e1;
     border-radius: 15px;
 }
-h2.br-bg {
+.br-bg {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 1rem;
     background: #fff;
@@ -52,7 +52,7 @@ button.active {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .lead-ul {
-    font-size: 20px;
+    font-size: 16px;
 }
 .py-custom {
     padding-top: 5rem !important;

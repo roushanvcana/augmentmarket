@@ -4508,7 +4508,7 @@ a.navbar-brand {
     border-color:#e7e7e7
 }
 .navbar-default .navbar-brand {
-    color: #fff;
+    color: #fff !important;
     font-size: 20px;
     margin-top: 17px;
     letter-spacing: 5px;
@@ -30177,14 +30177,15 @@ a.buy-btn{
 .text p {
     color: #fff;
 }
-
+div#sellers {
+    padding-top: 60px;
+}
 /* Buy Grid */
 .section-block {
-    padding: 90px 0px 90px 0px;
-    /* background-color: #fff; */
+    padding: 60px 0px 0px 0px;
 }
 .section-block-grey {
-    padding: 90px 0px 90px 0px;
+    padding: 50px 0px 50px 0px;
     background-color: #f7f2f1;
 }
 .section-block-dark {
@@ -30202,7 +30203,7 @@ a.buy-btn{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    padding: 90px 0px 90px 0px;
+    padding: 50px 0px 50px 50px;
     background: #f6f1f0;
 }
 .section-block-transparent {
@@ -31384,6 +31385,7 @@ div#menu-center ul li a {
     margin: 20px auto;
 }
 div#resources {
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .number-box-line:before {

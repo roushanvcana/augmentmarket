@@ -1,0 +1,88 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 576px) { 
+    .xs-container {
+    margin-top: 0;
+    padding: 0;
+}
+.row.text-center.g-5.px-5.pt-4 .br-bg {
+    padding: 15px;
+    font-size: 14px;
+}
+.row.text-center.g-5.px-5.pt-4 span.lead-n {
+    font-size: 14px;
+}
+.col-10.col-sm-12.col-lg-8.mx-auto, .mobile-res---- .col-12.col-sm-12.col-lg-8.mx-auto, .xs-padding, .mobile-res---- .col-lg-8.mx-auto, .--mobile-res .col-lg-8.mx-auto.mt-4, .--mobile-res .col-12.col-sm-12.col-lg-8.mx-auto, .--mobile-res .col-12.col-sm-12.col-lg-8.mx-auto, .--mobile-res .col-lg-8.mx-auto.text-center.mb-1, .mobile-res-- .col-lg-8.mx-auto.text-center {
+    margin-top: 25px;
+    padding: 0;
+} 
+.mobile-res-- h5.fw-600.mb-3, .mobile-res---- h5.fw-600.mb-3 {
+    font-size: 16px;
+}
+.mobile-res-- .lead-ul, .mobile-res---- .lead-ul {
+    font-size: 14px;
+}
+.mobile-res-- .col-lg-8.mx-auto {
+    padding: 0;
+}
+.xs-align {
+    justify-content: center;
+    align-items: center;
+}
+a.nav-link.active, button.active {
+    padding: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 10px;
+}
+footer.d-flex.flex-wrap.justify-content-between.align-items-center.py-5.mt-4.border-top.-mobile-res- {
+    text-align: center;
+    padding: 10px !important;
+    margin-top: 0 !important;
+}
+ul.nav.col-md-6.col-sm-12.justify-content-md-end.justify-content-sm-center.list-unstyled.d-flex {
+    margin: 0 auto;
+}
+}
+
+
+@media (min-width: 576px) {
+    h1.rs-ft-sz {
+        font-size: 32px;
+    }
+    h6.rs-ft-sz {
+        font-size: 16px;
+    }
+    a.nav-link.active, button.active {
+        padding: 10px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    }
+    
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+h6.rs-ft-sz {
+    font-size: inherit;
+}
+.nav-link {
+    padding: .5rem 1rem !important;
+}
+
+.btn-grad {
+    padding: 15px 15px;
+}
+}
+
+@media (min-width: 1200px) {
+
+    }
+@media (min-width: 1400px) {
+
+    }

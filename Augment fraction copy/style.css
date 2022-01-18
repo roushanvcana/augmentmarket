@@ -5,6 +5,9 @@ p {
     font-weight: 400 !important;
     color: rgb(135 135 135);
 }
+.navbar-brand {
+    font-size: 1.5rem;
+}
 .lead-n {
     font-weight: 400;
     color: rgb(135 135 135);
@@ -56,6 +59,7 @@ button.active {
 .py-custom {
     padding-top: 5rem !important;
 }
+
 .btn-grad {
     padding: 15px 30px;
     text-align: center;
@@ -126,9 +130,4 @@ figure:hover+span {
 	}
 }
 
-@media (min-width: 992px) {
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
-}
+

@@ -1,7 +1,34 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 576px) { 
+.--mobile-res- .img-show {
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+    }
+    .--mobile-res- .row.align-items-start.pt-3 {
+        gap: 2rem;
+    }
+    .--mobile-res- .col-lg-12.mx-auto.text-center.pb-5 {
+        padding-bottom: 0 !important;
+    }
     .xs-container {
     margin-top: 0;
     padding: 0;
+}
+.--mobile-res- .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.--mobile-res- img.img-show {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-top: 0;
+}
+.--mobile-res- .row {
+    --bs-gutter-x: 0;
+}
+.--mobile-res-, .--mobile-res- .align-items-center.g-5.px-5.lh-custom {
+    padding: 0 !important;
+    margin-bottom: 1rem;
 }
 .row.text-center.g-5.px-5.pt-4 .br-bg {
     padding: 15px;
@@ -45,6 +72,12 @@ ul.nav.col-md-6.col-sm-12.justify-content-md-end.justify-content-sm-center.list-
 
 
 @media (min-width: 576px) {
+    .--mobile-res- img.img-show {
+        margin-bottom: 2rem;
+    }
+    .--mobile-res- .row.align-items-start.pt-3 {
+        gap: 2rem;
+    }
     h1.rs-ft-sz {
         font-size: 32px;
     }
@@ -60,7 +93,21 @@ ul.nav.col-md-6.col-sm-12.justify-content-md-end.justify-content-sm-center.list-
 }
 
 @media (min-width: 768px) {
-
+    .--mobile-res- .row.align-items-start.pt-3 {
+        gap: 0;
+    }
+    .--mobile-res- h3.fw-600 {
+        font-size: 1rem;
+    }
+    .--mobile-res- .lead-ul {
+        font-size: 12px;
+    }
+    .--mobile-res- .row.align-items-start.pt-3 {
+        padding: 0;
+    }
+    .--mobile-res- .img-show {
+        display: none;
+    }
     }
     
 @media (min-width: 992px) {
@@ -78,10 +125,18 @@ h6.rs-ft-sz {
 .btn-grad {
     padding: 15px 15px;
 }
+.--mobile-res- h3.fw-600 {
+    font-size: 1.25rem;
+}
+.--mobile-res- .lead-ul {
+    font-size: 16px;
+}
 }
 
 @media (min-width: 1200px) {
-
+    .--mobile-res- h3.fw-600 {
+        font-size: 1.75rem;
+    }
     }
 @media (min-width: 1400px) {
 
